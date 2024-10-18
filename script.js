@@ -58,7 +58,7 @@ function checkData() {
     localStorage.setItem("emai", valid_user.email);
 
     console.log("name" + localStorage.getItem("name"));
-    window.location.replace("Todolist.html");
+    window.location.replace("index.html");
   } else {
     console.log("User not found");
     alert("Login Failed!");
